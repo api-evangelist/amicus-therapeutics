@@ -1,0 +1,22 @@
+{
+  "description": "Example Amicus medicine record for Galafold (migalastat), Amicus's first-and-only oral therapy for adults with Fabry disease who have an amenable GLA variant.",
+  "medicine": {
+    "medicineId": "amx-med-galafold",
+    "brandName": "Galafold",
+    "genericName": "migalastat",
+    "drugClass": "Pharmacological Chaperone",
+    "routeOfAdministration": "Oral",
+    "indication": "Fabry disease",
+    "patientPopulation": "Adults with Fabry disease who have a GLA gene variant that is responsive (amenable) to Galafold",
+    "combinationWith": [],
+    "mechanismOfAction": "Selective, reversible binding to amenable mutant forms of alpha-galactosidase A to stabilize the enzyme, facilitate lysosomal trafficking, and restore activity",
+    "approvals": [
+      {
+        "region": "EU",
+        "agency": "European Commission",
+        "approvalDate": "2016-05-26"
+      }
+    ],
+    "productSite": "https://www.galafold.com"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "bio": "http://purl.obolibrary.org/obo/",
+    "amx": "https://api-evangelist.github.io/amicus-therapeutics/vocab#",
+    "id": "@id",
+    "type": "@type",
+    "Organization": "schema:Organization",
+    "MedicalOrganization": "schema:MedicalOrganization",
+    "PharmaceuticalCompany": {
+      "@id": "amx:PharmaceuticalCompany",
+      "@type": "schema:MedicalOrganization"
+    },
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "headquarters": "schema:address",
+    "parentOrganization": "schema:parentOrganization",
+    "subsidiary": "schema:subOrganization",
+
+    "Drug": "schema:Drug",
+    "brandName": "schema:brandName",
+    "nonProprietaryName": "schema:nonProprietaryName",
+    "activeIngredient": "schema:activeIngredient",
+    "drugClass": "schema:drugClass",
+    "mechanismOfAction": "schema:mechanismOfAction",
+    "routeOfAdministration": "amx:routeOfAdministration",
+    "diseaseArea": "schema:relevantSpecialty",
+    "approvalRegion": "amx:approvalRegion",
+    "approvalDate": "amx:approvalDate",
+
+    "RareDisease": {
+      "@id": "amx:RareDisease",
+      "@type": "schema:MedicalCondition"
+    },
+    "LysosomalStorageDisorder": {
+      "@id": "amx:LysosomalStorageDisorder",
+      "@type": "amx:RareDisease"
+    },
+    "indication": "schema:indication",
+    "gene": "amx:gene",
+    "geneVariant": "amx:geneVariant",
+    "amenable": "amx:amenable",
+
+    "ClinicalTrial": "schema:MedicalStudy",
+    "studyType": "schema:studyType",
+    "studyPhase": "schema:phase",
+    "nctId": "amx:nctId",
+    "ageRange": "amx:ageRange",
+    "studyStatus": "schema:status",
+
+    "PatientProgram": {
+      "@id": "amx:PatientProgram",
+      "@type": "schema:Service"
+    },
+    "patientAdvocacy": "amx:patientAdvocacy",
+    "expandedAccess": "amx:expandedAccess"
+  }
+}

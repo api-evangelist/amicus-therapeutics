@@ -1,0 +1,16 @@
+{
+  "description": "Example Amicus medicine record for Pombiliti (cipaglucosidase alfa-atga), the enzyme replacement component of the two-component Pombiliti + Opfolda regimen for adults with late-onset Pompe disease.",
+  "medicine": {
+    "medicineId": "amx-med-pombiliti",
+    "brandName": "Pombiliti",
+    "genericName": "cipaglucosidase alfa-atga",
+    "drugClass": "Enzyme Replacement Therapy",
+    "routeOfAdministration": "Intravenous",
+    "indication": "Late-onset Pompe disease",
+    "patientPopulation": "Adults with late-onset Pompe disease (LOPD) weighing 88 lbs or more who are not improving on their current enzyme replacement therapy",
+    "combinationWith": ["Opfolda"],
+    "mechanismOfAction": "Bis-M6P-enriched ERT designed to deliver active GAA enzyme directly to muscle cells for improved binding and effective uptake",
+    "approvals": [],
+    "productSite": "https://www.pombilitiopfolda.com"
+  }
+}

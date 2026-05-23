@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/amicus-therapeutics/json-schema/amicus-medicine-schema.json",
+  "title": "Amicus Medicine",
+  "description": "A marketed Amicus Therapeutics medicine, including its trade name, generic name, indication, mechanism, and approval status.",
+  "type": "object",
+  "required": ["medicineId", "brandName", "genericName", "indication"],
+  "properties": {
+    "medicineId": {
+      "type": "string",
+      "description": "Stable identifier for the Amicus medicine record"
+    },
+    "brandName": {
+      "type": "string",
+      "description": "Registered brand / trade name (e.g., Galafold, Pombiliti, Opfolda)"
+    },
+    "genericName": {
+      "type": "string",
+      "description": "International nonproprietary name (e.g., migalastat)"
+    },
+    "drugClass": {
+      "type": "string",
+      "enum": [
+        "Pharmacological Chaperone",
+        "Enzyme Replacement Therapy",
+        "Enzyme Stabilizer",
+        "Small Molecule",
+        "Biologic"
+      ],
+      "description": "Therapeutic class of the medicine"
+    },
+    "routeOfAdministration": {
+      "type": "string",
+      "enum": ["Oral", "Intravenous", "Subcutaneous", "Intramuscular", "Inhaled"],
+      "description": "How the medicine is administered to patients"
+    },
+    "indication": {
+      "type": "string",
+      "description": "Approved disease indication (e.g., Fabry disease, late-onset Pompe disease)"
+    },
+    "patientPopulation": {
+      "type": "string",
+      "description": "Eligible patient population description (e.g., adults with amenable GLA variant)"
+    },
+    "combinationWith": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Other medicines required as part of the regimen (e.g., Opfolda combined with Pombiliti)"
+    },
+    "mechanismOfAction": {
+      "type": "string",
+      "description": "Brief description of how the medicine works"
+    },
+    "approvals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["region", "agency"],
+        "properties": {
+          "region": {
+            "type": "string",
+            "description": "Geographic / regulatory region (e.g., EU, US, Japan)"
+          },
+          "agency": {
+            "type": "string",
+            "description": "Approving authority (e.g., FDA, EC, EMA, PMDA)"
+          },
+          "approvalDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of approval"
+          }
+        }
+      }
+    },
+    "productSite": {
+      "type": "string",
+      "format": "uri",
+      "description": "Public product / patient information website"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Example Amicus clinical trial record for ROSSELLA (ATB200-08), a Phase 3 study of cipaglucosidase alfa + miglustat in infantile-onset Pompe disease.",
+  "trial": {
+    "trialId": "ATB200-08",
+    "name": "ROSSELLA",
+    "nctId": "NCT04808505",
+    "indication": "Infantile-onset Pompe disease",
+    "studyType": "Interventional",
+    "phase": "Phase 3",
+    "ageRange": {
+      "minimumAge": "0 years",
+      "maximumAge": "Less than 18 years"
+    },
+    "investigationalProduct": "Cipaglucosidase alfa + miglustat",
+    "status": "Active"
+  }
+}

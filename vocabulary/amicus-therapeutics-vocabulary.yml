@@ -1,0 +1,210 @@
+vocabulary:
+  name: Amicus Therapeutics Vocabulary
+  description: >-
+    Domain vocabulary for Amicus Therapeutics, a global rare disease
+    biotechnology company focused on genetically defined conditions —
+    particularly lysosomal storage disorders. Covers Amicus's approved
+    therapies (Galafold for Fabry disease and Pombiliti + Opfolda for
+    late-onset Pompe disease), clinical pipeline, scientific platforms, and
+    the corporate context following BioMarin Pharmaceutical's April 2026
+    acquisition.
+  version: 1.0.0
+  created: '2026-05-23'
+  modified: '2026-05-23'
+  source: https://www.amicusrx.com
+
+terms:
+  - term: Rare Disease
+    definition: >-
+      A condition that affects a small percentage of the population. In the
+      United States a disease is considered rare if it affects fewer than
+      200,000 people; in the European Union the threshold is 1 in 2,000.
+      Amicus's entire portfolio targets rare, genetically defined conditions.
+    tags:
+      - Disease Category
+      - Therapeutic Focus
+
+  - term: Lysosomal Storage Disorder (LSD)
+    definition: >-
+      A group of approximately 50 inherited metabolic diseases caused by
+      enzyme deficiencies that lead to harmful accumulation of substrates
+      within cellular lysosomes. Fabry disease and Pompe disease — the two
+      indications addressed by Amicus's approved medicines — are both LSDs.
+    tags:
+      - Disease Category
+      - Genetics
+
+  - term: Fabry Disease
+    definition: >-
+      An X-linked lysosomal storage disorder caused by variants in the GLA
+      gene that lead to deficient alpha-galactosidase A enzyme activity and
+      progressive accumulation of globotriaosylceramide (Gb3) in cells.
+      Symptoms include neuropathic pain, renal failure, cardiomyopathy, and
+      cerebrovascular events. Treated by Amicus with Galafold (migalastat)
+      in patients with amenable GLA variants.
+    tags:
+      - Indication
+      - Genetic Disease
+
+  - term: Pompe Disease
+    definition: >-
+      An autosomal recessive lysosomal storage disorder caused by deficient
+      acid alpha-glucosidase (GAA) enzyme activity, leading to glycogen
+      accumulation in muscle and progressive muscle weakness. Late-onset
+      Pompe disease (LOPD) is treated by Amicus with the two-component
+      Pombiliti + Opfolda regimen.
+    tags:
+      - Indication
+      - Genetic Disease
+
+  - term: Galafold
+    definition: >-
+      Brand name for migalastat, the first and only oral therapy for adults
+      with Fabry disease who have a galactosidase alpha (GLA) gene variant
+      that is amenable (responsive) to the drug. Approved by the European
+      Commission in May 2016 and subsequently by additional regulators
+      worldwide.
+    tags:
+      - Product
+      - Medicine
+
+  - term: Migalastat
+    definition: >-
+      The generic name of Galafold. A small-molecule pharmacological
+      chaperone that selectively and reversibly binds to amenable mutant
+      forms of alpha-galactosidase A to stabilize the enzyme, facilitate its
+      trafficking to lysosomes, and restore its activity.
+    tags:
+      - Active Ingredient
+      - Small Molecule
+
+  - term: Pombiliti
+    definition: >-
+      Brand name for cipaglucosidase alfa-atga, a bis-M6P-enriched enzyme
+      replacement therapy (ERT) designed to deliver active GAA enzyme
+      directly to muscle cells for improved binding and uptake. Used in
+      combination with Opfolda for adults with late-onset Pompe disease
+      weighing 88 lb or more who are not improving on their current ERT.
+    tags:
+      - Product
+      - Medicine
+
+  - term: Opfolda
+    definition: >-
+      Brand name for miglustat as used in Pompe disease — described by
+      Amicus as the first and only oral enzyme stabilizer designed for LOPD.
+      Opfolda stabilizes Pombiliti within the bloodstream, supporting
+      delivery of active enzyme to muscle tissue.
+    tags:
+      - Product
+      - Medicine
+
+  - term: Pharmacological Chaperone
+    definition: >-
+      A small molecule that selectively binds to a target protein, stabilizing
+      its proper conformation and improving its folding, trafficking, and
+      function. Migalastat is a pharmacological chaperone for amenable
+      mutant alpha-galactosidase A.
+    tags:
+      - Drug Modality
+      - Mechanism
+
+  - term: Enzyme Replacement Therapy (ERT)
+    definition: >-
+      A treatment approach for enzyme deficiency disorders in which the
+      missing or defective enzyme is administered exogenously. Pombiliti is
+      a next-generation, bis-M6P-enriched ERT designed for improved muscle
+      uptake in Pompe disease.
+    tags:
+      - Drug Modality
+      - Mechanism
+
+  - term: Amenable Variant
+    definition: >-
+      A variant in the GLA gene whose mutant alpha-galactosidase A protein
+      product responds to (is stabilized by) migalastat in a validated
+      cell-based assay. Amenability is the central eligibility criterion
+      for Galafold therapy.
+    tags:
+      - Eligibility
+      - Genetics
+
+  - term: Bis-M6P (Bis-Mannose-6-Phosphate)
+    definition: >-
+      A glycan modification enriched on the cipaglucosidase alfa molecule
+      (Pombiliti) to improve binding to the cation-independent
+      mannose-6-phosphate receptor on muscle cells, increasing cellular
+      uptake of the replacement enzyme.
+    tags:
+      - Biochemistry
+      - Drug Design
+
+  - term: Clinical Trial
+    definition: >-
+      A prospective research study evaluating the safety and efficacy of a
+      candidate therapy. Amicus operates active Phase 3 and observational
+      studies across Fabry disease, Pompe disease, and focal segmental
+      glomerulosclerosis (ACTION3 / DMX-200), and frames participants as
+      "equal clinical research partners".
+    tags:
+      - Research Method
+      - Pipeline
+
+  - term: Expanded Access Program (EAP)
+    definition: >-
+      A regulatory pathway by which a patient with a serious or
+      life-threatening condition may access an investigational therapy
+      outside of a clinical trial. Amicus documents an Expanded Access
+      Program on its corporate site.
+    tags:
+      - Regulatory
+      - Patient Access
+
+  - term: Patient Advocacy
+    definition: >-
+      A long-standing pillar of Amicus's operating model: partnership with
+      patient organizations and rare-disease communities to inform research
+      priorities, support diagnostic odysseys, and improve access to
+      approved therapies.
+    tags:
+      - Stakeholder Engagement
+      - Patient Support
+
+  - term: BioMarin Pharmaceutical
+    definition: >-
+      A global rare disease biotechnology company headquartered in San
+      Rafael, California. BioMarin announced its agreement to acquire
+      Amicus Therapeutics in December 2025 for $4.8 billion and completed
+      the acquisition on April 27, 2026, making Amicus a wholly owned
+      subsidiary.
+    tags:
+      - Parent Company
+      - Corporate
+
+  - term: NASDAQ FOLD
+    definition: >-
+      The ticker symbol under which Amicus Therapeutics traded on the
+      Nasdaq Stock Market prior to the close of its acquisition by BioMarin
+      on April 27, 2026. The ticker has since been delisted as Amicus is no
+      longer publicly traded as a standalone entity.
+    tags:
+      - Financial
+      - Historical
+
+  - term: Focal Segmental Glomerulosclerosis (FSGS)
+    definition: >-
+      A rare kidney disease characterized by scarring of segments of the
+      glomeruli, leading to proteinuria and progressive renal dysfunction.
+      The ACTION3 (DMX-200) Phase 3 study is evaluating an investigational
+      therapy for FSGS in the Amicus pipeline.
+    tags:
+      - Indication
+      - Rare Disease
+
+  - term: Princeton, New Jersey
+    definition: >-
+      The corporate headquarters of Amicus Therapeutics, where the company
+      was founded on February 4, 2002.
+    tags:
+      - Headquarters
+      - Corporate

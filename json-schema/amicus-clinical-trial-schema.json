@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/amicus-therapeutics/json-schema/amicus-clinical-trial-schema.json",
+  "title": "Amicus Clinical Trial",
+  "description": "A clinical study or observational registry sponsored or run by Amicus Therapeutics.",
+  "type": "object",
+  "required": ["trialId", "name", "indication"],
+  "properties": {
+    "trialId": {
+      "type": "string",
+      "description": "Internal Amicus trial identifier (e.g., AT1001-025, ATB200-08)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Public name of the study (e.g., ROSSELLA, ZIP, ACTION3)"
+    },
+    "nctId": {
+      "type": "string",
+      "pattern": "^NCT[0-9]{8}$",
+      "description": "ClinicalTrials.gov registry identifier"
+    },
+    "indication": {
+      "type": "string",
+      "description": "Disease indication under study (e.g., Fabry disease, Pompe disease, FSGS)"
+    },
+    "studyType": {
+      "type": "string",
+      "enum": ["Interventional", "Observational", "Registry", "Expanded Access"]
+    },
+    "phase": {
+      "type": "string",
+      "enum": [
+        "Phase 1",
+        "Phase 2",
+        "Phase 3",
+        "Phase 4",
+        "Not Applicable"
+      ]
+    },
+    "ageRange": {
+      "type": "object",
+      "properties": {
+        "minimumAge": { "type": "string" },
+        "maximumAge": { "type": "string" }
+      },
+      "description": "Eligible age range"
+    },
+    "investigationalProduct": {
+      "type": "string",
+      "description": "Name or code of the candidate therapy being evaluated"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["Recruiting", "Active", "Completed", "Suspended", "Terminated", "Withdrawn"]
+    },
+    "registryEUPAS": {
+      "type": "string",
+      "description": "EU PAS Register identifier where applicable"
+    }
+  },
+  "additionalProperties": false
+}

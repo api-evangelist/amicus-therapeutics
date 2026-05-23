@@ -1,0 +1,112 @@
+aid: amicus-therapeutics
+url: https://raw.githubusercontent.com/api-evangelist/amicus-therapeutics/refs/heads/main/apis.yml
+modified: '2026-05-23'
+description: >-
+  Amicus Therapeutics is a global rare disease biotechnology company focused on
+  discovering, developing, and commercializing medicines for people living with
+  genetically defined conditions. Founded in 2002 and headquartered in
+  Princeton, New Jersey, Amicus markets two approved therapies: Galafold
+  (migalastat) — the first and only oral therapy for adults with Fabry disease
+  who have an amenable GLA variant, approved by the European Commission in May
+  2016 — and the two-component Pombiliti (cipaglucosidase alfa-atga) + Opfolda
+  (miglustat) enzyme replacement / stabilizer combination for adults with
+  late-onset Pompe disease. Amicus operates wholly owned subsidiaries in
+  Australia, Canada, France, Germany, Italy, Japan, the Netherlands, Spain,
+  Switzerland, and the United Kingdom. BioMarin Pharmaceutical Inc. agreed to
+  acquire Amicus in December 2025 for $4.8 billion; the acquisition completed
+  on April 27, 2026 and Amicus now operates as a wholly owned subsidiary of
+  BioMarin, having previously traded on NASDAQ under the ticker FOLD. The
+  company maintains no publicly documented commercial developer APIs, SDKs, or
+  GitHub organization; its digital surface is composed of corporate, product,
+  patient-support, and clinical-trial websites.
+apis: []
+common:
+  - type: Website
+    url: https://www.amicusrx.com
+  - type: About
+    url: https://www.amicusrx.com/about-amicus/
+  - type: Products
+    url: https://www.amicusrx.com/our-medicines/
+  - type: Pipeline
+    url: https://www.amicusrx.com/our-research-and-pipeline/
+  - type: ClinicalTrials
+    url: https://www.amicusrx.com/our-research-and-pipeline/clinical-trials/
+  - type: ExpandedAccess
+    url: https://www.amicusrx.com/our-research-and-pipeline/expanded-access-program/
+  - type: PatientAdvocacy
+    url: https://www.amicusrx.com/for-patients/patient-advocacy/
+  - type: ProductSite
+    url: https://www.galafold.com
+  - type: ProductSite
+    url: https://www.pombilitiopfolda.com
+  - type: ParentCompany
+    url: https://www.biomarin.com
+  - type: Investors
+    url: https://investors.biomarin.com/
+  - type: Careers
+    url: https://www.biomarin.com/careers/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/amicus-therapeutics
+  - type: Vocabulary
+    url: https://raw.githubusercontent.com/api-evangelist/amicus-therapeutics/refs/heads/main/vocabulary/amicus-therapeutics-vocabulary.yml
+  - type: JSONLD
+    url: https://raw.githubusercontent.com/api-evangelist/amicus-therapeutics/refs/heads/main/json-ld/amicus-therapeutics-context.jsonld
+products:
+  - name: Galafold
+    genericName: migalastat
+    indication: Fabry disease (adults with amenable GLA variant)
+    mechanism: Oral pharmacological chaperone
+    approvalEC: '2016-05'
+    productSite: https://www.galafold.com
+  - name: Pombiliti
+    genericName: cipaglucosidase alfa-atga
+    indication: Late-onset Pompe disease (adults, in combination with Opfolda)
+    mechanism: Bis-M6P-enriched enzyme replacement therapy
+    productSite: https://www.pombilitiopfolda.com
+  - name: Opfolda
+    genericName: miglustat
+    indication: Late-onset Pompe disease (adults, in combination with Pombiliti)
+    mechanism: Oral enzyme stabilizer
+    productSite: https://www.pombilitiopfolda.com
+pipeline:
+  - name: Pediatric Migalastat Study
+    indication: Fabry disease (ages 2 to <12)
+    nct: NCT06904261
+  - name: AT1001-025
+    indication: Fabry disease — renal monotherapy
+    phase: Phase 3
+    nct: NCT04020055
+  - name: AT1001-037
+    indication: Fabry disease — prospective observational study of women
+    nct: NCT04252066
+  - name: ROSSELLA (ATB200-08)
+    indication: Infantile-onset Pompe disease (ages 0 to <18)
+    phase: Phase 3
+    nct: NCT04808505
+  - name: ZIP (ATB200-04)
+    indication: Late-onset Pompe disease (ages 0 to <18)
+    phase: Phase 3
+    nct: NCT03911505
+  - name: POM-005 Registry
+    indication: Pompe disease — global prospective observational registry
+    nct: NCT06121011
+  - name: ACTION3 (DMX-200)
+    indication: Focal segmental glomerulosclerosis
+    phase: Phase 3
+    nct: NCT05183646
+tags:
+  - Biotechnology
+  - Pharmaceuticals
+  - Rare Diseases
+  - Genetic Diseases
+  - Fabry Disease
+  - Pompe Disease
+  - Lysosomal Storage Disorders
+  - Enzyme Replacement Therapy
+  - Pharmacological Chaperones
+  - Clinical Research
+  - Life Sciences
+  - Patient Advocacy
+maintainers:
+  - FN: API Evangelist
+    url: https://apievangelist.com

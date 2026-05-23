@@ -1,0 +1,16 @@
+{
+  "title": "Amicus Clinical Trial Structure",
+  "description": "JSON structure documentation for an Amicus Therapeutics clinical study or registry.",
+  "fields": [
+    { "name": "trialId", "type": "string", "required": true, "description": "Internal Amicus trial identifier" },
+    { "name": "name", "type": "string", "required": true, "description": "Public study name (e.g., ROSSELLA, ZIP, ACTION3)" },
+    { "name": "nctId", "type": "string", "required": false, "description": "ClinicalTrials.gov NCT identifier" },
+    { "name": "indication", "type": "string", "required": true, "description": "Disease indication under study" },
+    { "name": "studyType", "type": "string", "required": false, "description": "Interventional | Observational | Registry | Expanded Access" },
+    { "name": "phase", "type": "string", "required": false, "description": "Phase 1 | Phase 2 | Phase 3 | Phase 4 | Not Applicable" },
+    { "name": "ageRange", "type": "object", "required": false, "description": "minimumAge / maximumAge of eligible participants" },
+    { "name": "investigationalProduct", "type": "string", "required": false, "description": "Candidate therapy code or name" },
+    { "name": "status", "type": "string", "required": false, "description": "Recruiting | Active | Completed | etc." },
+    { "name": "registryEUPAS", "type": "string", "required": false, "description": "EU PAS Register identifier where applicable" }
+  ]
+}
