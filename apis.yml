@@ -21,6 +21,8 @@ description: >-
   patient-support, and clinical-trial websites.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/amicus-therapeutics-domain-security.yml
   - type: Website
     url: https://www.amicusrx.com
   - type: About
