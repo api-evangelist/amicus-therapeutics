@@ -124,6 +124,19 @@ pipeline:
 tags:
   - Biotechnology
   - Pharmaceuticals
+  - Rare Disease
+  - Genetic Diseases
+  - Fabry Disease
+  - Pompe Disease
+  - Lysosomal Storage Disorders
+  - Enzyme Replacement Therapy
+  - Pharmacological Chaperones
+  - Clinical Research
+  - Life Sciences
+  - Patient Advocacy
+tags_raw:
+  - Biotechnology
+  - Pharmaceuticals
   - Rare Diseases
   - Genetic Diseases
   - Fabry Disease
